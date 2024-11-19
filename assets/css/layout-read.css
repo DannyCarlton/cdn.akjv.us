@@ -1,0 +1,56 @@
+
+.verses:after
+	{
+	height:100%;
+	width:1px;
+	background:#E6E6E6;
+	content: '';
+	position:absolute;
+	right: 0;
+	left:auto;
+	top:0;
+	bottom:0;
+	}
+.verses 
+	{
+	flex:0 0 55%;
+	max-width:55%;
+	}
+.verse
+	{
+	display:inline;
+	margin-right:5px;
+	}
+.para
+	{
+	display:none;
+	}
+.paragraph
+	{
+	display:block;
+	}
+._para
+	{
+	margin-left:30px;
+	}
+.verse-number
+	{
+	display:none;
+	}
+.chapter-number
+	{
+	display:none;
+	}
+.xref
+	{
+	display:none;
+	}
+#xref
+	{
+	flex:0 0 20%;
+	max-width:20%;
+	}
+#tools
+	{
+	display:none;
+	}

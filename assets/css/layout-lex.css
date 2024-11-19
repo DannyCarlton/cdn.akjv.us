@@ -1,0 +1,143 @@
+
+#xref
+	{
+	display:none;
+	}
+#verses
+	{
+	margin-left: 8.33%;
+	flex:0 0 50%;
+	max-width:50%;
+	margin-top:-20px!important;
+	}
+#tools
+	{
+	flex:0 0 33.33%;
+	max-width:33.33%
+	}
+.left-sub-header
+	{
+	font-size:1rem;
+	flex:0 0 33.33%;
+	max-width:33.33%;
+	}
+.middle-sub-header
+	{
+	font-size:1.25rem;
+	font-weight:bold;
+	flex:0 0 33.33%;
+	max-width:33.33%;
+	}
+.copyright
+	{
+	flex:0 0 33.33%;
+	max-width:33.33%;
+	}
+.page-link
+	{
+	background: #a10f2b;
+	color:#fff;
+	border-color:#a10f2b;
+	}
+.page-item.active .page-link
+	{
+	background: #fff;
+	border-color:#fff;
+	color:#a10f2b;
+	border-radius:3px;
+	}
+.page-item .page-link:hover
+	{
+	background: #cc1133;
+	border-color:#a10f2b;
+	color:#fff;
+	border-radius:3px;
+	}
+.page-item.active .page-link:hover
+	{
+	background: #cc1133;
+	border-color:#a10f2b;
+	color:#fff;
+	border-radius:3px;
+	}
+#verses h4
+	{
+	margin-bottom:0;
+	margin-top:20px;
+	}
+#verses small
+	{
+	float:right;
+	}
+.keyword-result
+	{
+	border-bottom: 1px solid #ddd;
+	margin-bottom:0;
+	padding-bottom: 20px;
+	padding-top:0;
+	margin-top:0;
+	}
+#reference-label
+	{
+	display:none;
+	}
+
+/* Breakpoint XS */
+@media (max-width: 575px)
+	{
+	.sub-header
+		{
+		flex:0 0 100%;
+		max-width:100%;
+		margin:0;
+		text-align:center;
+		}
+	.left-sub-header
+		{
+		font-size:1rem;
+		flex:0 0 100%;
+		max-width:100%;
+		text-align:center!important;
+		margin-bottom:5px!important;
+		}
+	.middle-sub-header
+		{
+		font-size:1.25rem;
+		font-weight:bold;
+		flex:0 0 100%;
+		max-width:100%;
+		margin-bottom:5px!important;
+		}
+	.right-sub-header
+		{
+		font-size:1rem;
+		flex:0 0 100%;
+		max-width:100%;
+		text-align:center!important;
+		margin-bottom:0px!important;
+		}
+	.right-sub-header ul
+		{
+		margin-bottom:0px!important;
+		align-items:center;
+		justify-content:center;
+		}
+	}
+
+/* Breakpoint SM */
+@media (min-width: 576px) and (max-width: 767px)
+	{
+	.left-sub-header
+		{
+		font-size:1rem;
+		flex:0 0 100%;
+		max-width:100%;
+		}
+	.middle-sub-header
+		{
+		font-size:1.25rem;
+		font-weight:bold;
+		flex:0 0 100%;
+		max-width:100%;
+		}
+	}

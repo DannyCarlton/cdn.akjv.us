@@ -25,7 +25,6 @@
  // }
  // 
  /////////////////////////////////////////////////////////////////////*/
-
 /*******************************************************
  * Custom theme code styles
  * Written by Themelize.me (http://themelize.me)
@@ -33,15 +32,14 @@
  * Includes the base variables & mixins needed for all
  * scss files
  *******************************************************/
-
 /*
  * --------------------------------------------------
  * 1. General Elements
  *--------------------------------------------------
  */
-
 #header {
   /* 1. Header wrapper */
+
 }
 
 #highlighted {
@@ -60,32 +58,183 @@
   /* 5. Footer wrapper */
 }
 
+
+.header .header-brand-text h1 span
+	{
+	color:#800;
+	}
+
+.header .header-brand-text h1 {
+	font-size:37px;
+
+	}
+
+
+.header-inner .header-brand {
+	width:70px;
+	}
+
+.header-inner .header-block {
+	width:75%;
+	font-size:13px;
+	}
+
+.header-inner .header-block .second{
+	display:none;
+	}
+
+.card {
+	height:320px;
+}
+
+#comparison {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto
+
+}
+
+.overlay.overlay-primary:after,
+.overlay-hover-content.overlay-primary:after {
+  background: #000 !important;
+}
+
+.overlay.overlay-primary .overlay-header:after,
+.overlay.overlay-primary .overlay-footer:before,
+.overlay-hover-content.overlay-primary .overlay-header:after,
+.overlay-hover-content.overlay-primary .overlay-footer:before {
+  background: #ddd !important;
+}
+
+.overlay.overlay-op-8:after {
+	opacity: .5;
+}
+
+
+.display-4 {
+	font-family: 'Playfair Display SC';
+	font-weight:100;
+}
+
+
+.col-sm-4 {
+	float:left;
+}
+
+.mf-note {
+	float:right;
+	position:absolute;
+	bottom:0;
+	right:0;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+.mf-title {
+	margin-left:0;
+	font-weight:700;
+}
+
+.mf-title small {
+	font-weight:bold;
+	color:#fff;
+}
+
+
+.mf-title .lighter {display:none;}
+
+.mf-col-1 h4, .mf-col-2 h4, .mf-col-3 h4 {
+	font-size:17px;
+}
+
+
+
+.mf-col-1 a, .mf-col-2 a, .mf-col-3 a {
+	font-size:14px;
+	color:#fff;
+}
+
+
+.mf-col-1 a:hover, .mf-col-2 a:hover, .mf-col-3 a:hover {
+	color:#fee;
+}
+
+
+.modal-footer p.help {
+	margin-bottom:10px;
+	border:1px solid #bbb;
+	padding:5px 10px;
+	border-radius:5px;
+	box-shadow:rgba(0,0,0,0.15) 0 2px 7px;
+	height:74px;
+}
+
+
+.nav-item a span {
+	font-family: Rambla;
+}
+
+.navbar-expand-md .navbar-main .navbar-nav.navbar-nav-stretch>.nav-item>.nav-link {
+	padding:10px 15px;
+}
+
+.header-inner .header-brand {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
 /*
  * --------------------------------------------------
  * 2. Colours
  *-------------------------------------------------- 
  */
-
 /*
  * --------------------------------------------------
  * 3. Responsiveness/media queries
  *--------------------------------------------------
  */
-
 /* Extra small devices (phones, less than 768px) */
-
 /* No media query since this is the default in Bootstrap */
-
 @media (min-width: 576px) {
   /* Small devices (576px and up). Mixin: media-breakpoint-up(sm) */
+	.header-inner .header-block {
+		width:65%;
+	}
+  
 }
 
 @media (min-width: 768px) {
   /* Medium devices (768px and up). Mixin: media-breakpoint-up(md) */
+	#comparison {
+		width:80%;
+	}
+	.header-inner .header-block {
+		width:50%;
+		font-size:17px;
+	}
+	.header-inner .header-block .second {
+		display:block;
+	}
+	.header-inner .header-brand {
+		width:50%;
+		}
+	.nav-item a span {
+		font-size:17px;
+	}
+	.header .nav-bar	{
+		width:50%;
+	}
+
+	#search-form {display:none!important;}
+
+	.modal-footer p.help {
+		height:54px;
+	}
 }
 
 @media (min-width: 992px) {
   /* Large devices (992px and up). Mixin: media-breakpoint-up(lg) */
+	#search-form {display:block!important;}
 }
 
 @media (min-width: 1200px) {
@@ -93,17 +242,18 @@
 }
 
 /* max-width */
-
 @media (max-width: 575.98px) {
   /* Small devices (575px and down). Mixin: media-breakpoint-down(xs) */
-	.dropdown-menu a 
-		{
-		color:#ff7777;
-		}
+	.header-inner .header-brand {
+		widthx:100%;
+	}
 }
 
 @media (max-width: 767.98px) {
   /* Medium devices (767px and down). Mixin: media-breakpoint-down(sm) */
+	.header-inner .header-brand {
+		widthx:100%;
+	}
 }
 
 @media (max-width: 991.98px) {
@@ -115,25 +265,29 @@
 }
 
 /* target one breakpoint */
-
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* Small devices (between 576px and 767px). Mixin: media-breakpoint-only(sm) */
+	.header-inner .header-brand {
+		width:70px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* Medium devices (tablets, between 768px and 991px). Mixin: media-breakpoint-only(md) */
+  .header-inner .header-block {display:block;}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* Large devices (desktops, between 992px and 1199px). Mixin: media-breakpoint-only(lg) */
+  .header-inner .header-block {display:none;}
 }
 
 @media (min-width: 1200px) {
   /* Extra large devices (large desktops, 1200px and up). Mixin: media-breakpoint-only(xl) */
+  .header-inner .header-block {display:none;}
 }
 
 /* span multiple screenwidths */
-
 @media (min-width: 768px) {
   /* From medium to large (between 768px and 1199px). Mixin: media-breakpoint-between(md, xl)  */
 }

@@ -1,0 +1,281 @@
+::placeholder {
+    color: #ccc;
+    font-weight: normal;
+    opacity: .5;
+}
+
+.sub-header .is-sticky {
+    top: 70px!important;
+}
+
+.sub-header {
+    border-bottom-color: transparent!important;
+}
+
+.xref {
+    font-size: 11px;
+    line-height: 1.1;
+    text-align: left;
+    font-family: 'Lora',serif;
+    margin-right: 10px;
+    padding: 0;
+    float: right;
+}
+
+.xref-inner {
+    position: absolute;
+}
+
+.dropdown-menu {
+    font-family: 'Lora';
+    text-align: justify;
+    margin-left: 20px!important;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.outline {
+    font-style: italic;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.nav-item.tools {
+    font-size: 12px;
+}
+
+.nav-item.tools a.nav-link {
+    padding: 7px 9px 7px 9px;
+    border-top-left-radius: 5px!important;
+    border-top-right-radius: 5px!important;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.nav-item.tools a:hover.nav-link {
+    background-color: #666666;
+    color: #fff;
+}
+
+.nav-item.tools a.nav-link.active {
+    border-top-left-radius: 5px!important;
+    border-top-right-radius: 5px!important;
+    background-color: #a10f2b!important;
+    color: #fff;
+}
+
+.nav-item.tools a.nav-link.active::before {
+    display: none;
+}
+
+.nav-item.tools a:hover.nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    margin-right: 4px!important;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+blockquote {
+    margin: 0 0 0 12px;
+    padding: 0 0 0 25px;
+}
+
+.tools-outline p {
+    margin-bottom: 7px;
+}
+
+.tools-outline blockquote p {
+    line-height: 1.7;
+    margin-bottom: 0;
+    text-indent: 20px;
+}
+
+.sidebar-left {
+    padding: 0;
+}
+
+.tools a.nav-link i {
+    font-size: 21px;
+}
+
+
+/*\
+* Restore Bootstrap 3 "hidden" utility classes.
+\*/
+
+
+/* Breakpoint XS */
+
+@media (max-width: 575px) {
+    .hidden-xs-down,
+    .hidden-sm-down,
+    .hidden-md-down,
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-xs,
+    .hidden-unless-sm,
+    .hidden-unless-md,
+    .hidden-unless-lg,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+    #verses {
+        font-size: 16px!important;
+    }
+    .flex-xs-row {
+        flex-direction: row!important;
+    }
+    #tools {
+        display: none;
+        margin-top: 20px!important;
+    }
+    .sub-header {
+        margin-left: 0px;
+    }
+    .left-sub-header {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 17px;
+        text-align: left!important;
+    }
+    .right-sub-header {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 17px;
+        text-align: right!important;
+    }
+    .middle-sub-header {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 17px;
+    }
+}
+
+
+/* Breakpoint SM */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .hidden-sm-down,
+    .hidden-md-down,
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-sm,
+    .hidden-unless-xs,
+    .hidden-unless-md,
+    .hidden-unless-lg,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+    .container {
+        max-width: 100%;
+        padding: 5px 20px;
+    }
+    #verses {
+        font-size: 17px!important;
+    }
+}
+
+
+/* Breakpoint MD */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-md-down,
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-md-up,
+    .hidden-md,
+    .hidden-unless-xs,
+    .hidden-unless-sm,
+    .hidden-unless-lg,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+    #content {
+        padding: 15px 10px;
+    }
+    #content .container {
+        max-width: 768px;
+        padding: 5px 0;
+    }
+    #verses {
+        font-size: 17px!important;
+    }
+    #xref {
+        padding: 5px;
+    }
+    .xref {
+        margin-right: 0px;
+        padding-left: 5px;
+        width: 55px;
+    }
+    #lexicon-definition {
+        position: relative!important;
+        top: 0!important;
+        width: 100%!important;
+    }
+    .xref {
+        font-size: 10px;
+    }
+}
+
+
+/* Breakpoint LG */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-lg,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-md-up,
+    .hidden-lg-up,
+    .hidden-unless-xs,
+    .hidden-unless-sm,
+    .hidden-unless-md,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+}
+
+
+/* Breakpoint XL */
+
+@media (min-width: 1200px) {
+    .hidden-xl-down,
+    .hidden-xl,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-md-up,
+    .hidden-lg-up,
+    .hidden-xl-up,
+    .hidden-unless-xs,
+    .hidden-unless-sm,
+    .hidden-unless-md,
+    .hidden-unless-lg {
+        display: none !important;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.page-content {
+    min-height: 100vh!important;
+    margin-bottom: -134px;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}

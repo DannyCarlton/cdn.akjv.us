@@ -1,0 +1,30 @@
+a.xref_verse {
+    color: #444;
+}
+
+a:hover.xref_verse {
+    color: #666;
+}
+
+a.sub-header {
+    color: #fff;
+}
+
+a:hover.sub-header {
+    color: #eee;
+    text-decoration: none;
+}
+
+.context {
+    background-color: #ffffaa;
+}
+
+.IPDHeader {
+    font-weight: bold;
+    color: #fff;
+    background-color: #a10f2b;
+}
+
+.IPDTable td {
+    margin: 1px;
+}

@@ -1,0 +1,44 @@
+
+.verses
+	{
+	text-align:justify;
+	text-justify:inter-word;
+	}
+.verse
+	{
+	display:inline;
+	margin-right:5px;
+	}
+.para
+	{
+	display:none;
+	}
+.paragraph
+	{
+	display:block;
+	}
+._para
+	{
+	margin-left:30px;
+	}
+.verse-number
+	{
+	font-weight:normal;
+	margin-left:0px;
+	vertical-align:super;
+	font-size:10px;
+	margin-right:0px!important;
+	}
+.chapter-number
+	{
+	display:block;
+	float:left;
+	font-size:60px;
+	margin-right:5px!important;
+	margin-bottom:0px;
+	margin-top:0px;
+	line-height:.9;
+	color:#a10f2b;
+	width:auto;
+	font-weight:normal;
+	}
