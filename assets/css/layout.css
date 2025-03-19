@@ -12,19 +12,6 @@
     border-bottom-color: transparent!important;
 }
 
-.xref {
-    font-size: 11px;
-    line-height: 1.1;
-    text-align: left;
-    font-family: 'Lora',serif;
-    margin-right: 10px;
-    padding: 0;
-    float: right;
-}
-
-.xref-inner {
-    position: absolute;
-}
 
 .dropdown-menu {
     font-family: 'Lora';
@@ -102,6 +89,374 @@ blockquote {
 .tools a.nav-link i {
     font-size: 21px;
 }
+
+body .sticky-inner .header
+	{
+	border-bottom-color:#b39535;
+	background-color:#fdfaf2;
+	}
+
+.navbar .navbar-nav>.nav-item>.nav-link
+	{
+	color:#a10f2b;
+	}
+
+legend small
+	{
+	color:#640417;
+	}
+
+
+#text-content
+	{
+	background-color:#e3c56515;
+	}
+
+
+.intro
+	{
+	display:block;
+	width:90%;
+	text-align:center;
+	margin-bottom:15px;
+	font-size:16px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+xref 
+	{
+	display:block;
+	font-size:12.5px;
+	width:13%;
+	text-align:left;
+	line-height:1.1;
+	text-indent:0;
+	margin-top:6px;
+	position:absolute;
+	left:-14%;
+	color:#640417;
+	letter-spacing:-0.02em;
+	}
+
+
+#reference-label-bottom
+	{
+	border-top:1px solid #bbb;
+	margin-top:20px;
+	padding-top:20px;
+	font-size:19px;
+	font-weight:600;
+	letter-spacing:.8px;
+	margin-left:-20px;
+	padding-left:20px;
+	margin-right:-20px;
+	padding-right:20px;
+	}
+
+
+.navbar-expand-md .navbar-main.collapse .dropdown-menu
+	{
+	background-color:#fdfaf2;
+	border-color:#d9c998;
+	border-bottom-color:#d9c998 !important;
+	color:#640417;
+	font-size:17px;
+
+	}
+	
+.navbar-expand-md .navbar-main.collapse .dropdown-menu.dropdown-menu-right
+	{
+	left:auto;
+	}
+	
+.navbar-expand-md .navbar-main.collapse .dropdown-menu.dropdown-menu-center
+	{
+	left:auto;
+	right:auto;
+	margin-left:-250% !important;
+	}
+
+
+.menu-book-list
+	{
+	font-size:14px;
+	}
+
+.xref
+	{
+	cursor:default;
+	}
+.xref:hover
+	{
+	font-weight:bold;
+	}
+
+
+
+#text-content.traditional verse.verse
+	{
+	display:block;
+	}
+#text-content.traditional .chapter-number
+	{
+	display:none;
+	}
+#text-content.traditional verse.first-verse word.first-word span.first-letter
+	{
+	font-size:92px;
+	float:left;
+	padding-right:0px;
+	height:64px;
+	margin-right:0px;
+	line-height:70px;
+	}
+#text-content.traditional verse.first-verse word.first-word span.first-letter.A
+	{
+	shape-outside: polygon(50% 0%, 0 100%, 100% 100%);
+	margin-right:5px;
+	}
+#text-content.traditional verse.first-verse word.first-word span.first-letter.R
+	{
+	shape-outside: polygon(50% 0%, 0 100%, 100% 100%);
+	margin-right:10px;
+	}
+#text-content.traditional .para
+	{
+	font-weight:bold;
+	}
+#text-content.traditional .verse-number
+	{
+	margin-right:7px;
+	}
+#text-content.traditional h4.ps119-subtitle
+	{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:10px;
+	padding-right:20px;
+	}
+
+
+
+
+#text-content.paragraph .verses
+	{
+	text-align:justify;
+	text-justify:inter-word;
+	}
+#text-content.paragraph .verse
+	{
+	display:inline;
+	margin-right:5px;
+	}
+#text-content.paragraph .para
+	{
+	display:none;
+	}
+#text-content.paragraph .paragraph
+	{
+	display:block;
+	}
+#text-content.paragraph ._para
+	{
+	margin-left:30px;
+	}
+#text-content.paragraph ._para.first-verse
+	{
+	margin-left:-5px;
+	}
+#text-content.paragraph .verse-number
+	{
+	font-weight:normal;
+	margin-left:0px;
+	vertical-align:super;
+	font-size:10px;
+	margin-right:0px!important;
+	}
+#text-content.paragraph .chapter-number
+	{
+	display:block;
+	font-size:92px;
+	float:left;
+	margin-right:5px!important;
+	margin-bottom:0px;
+	margin-top:0px;
+	line-height:.9;
+	color:#a10f2b;
+	width:auto;
+	font-weight:normal;
+	}
+#text-content.paragraph h4.ps119-subtitle
+	{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:10px;
+	padding-right:20px;
+	}
+#text-content.paragraph verse.first-verse word.first-word.italics span.first-letter
+	{
+	font-style:italic;
+	}
+
+
+
+
+#text-content.reading .verses:after
+	{
+	height:100%;
+	width:1px;
+	background:#E6E6E6;
+	content: '';
+	position:absolute;
+	right: 0;
+	left:auto;
+	top:0;
+	bottom:0;
+	}
+#text-content.reading .verses 
+	{
+	flex:0 0 75%;
+	max-width:75%;
+	margin-left:12%;
+	}
+#text-content.reading .verse
+	{
+	display:inline;
+	margin-right:5px;
+	}
+#text-content.reading .para
+	{
+	display:none;
+	}
+#text-content.reading .paragraph
+	{
+	display:block;
+	}
+#text-content.reading ._para
+	{
+	margin-left:30px;
+	}
+#text-content.reading ._para.first-verse
+	{
+	margin-left:0;
+	}
+#text-content.reading .verse-number
+	{
+	display:none;
+	}
+#text-content.reading .chapter-number
+	{
+	display:none;
+	}
+#text-content.reading .xref
+	{
+	display:none;
+	}
+#text-content.reading #xref
+	{
+	display:none;
+	}
+#text-content.reading xref
+	{
+	display:none;
+	}
+#text-content.reading #tools
+	{
+	display:none;
+	}
+#text-content.reading verse.first-verse word.first-word
+	{
+	colorx:red;
+	}
+#text-content.reading span.first-letter
+	{
+	font-size:92px;
+	float:left;
+	padding-right:0px;
+	height:64px;
+	margin-right:0px;
+	line-height:70px;
+	color:#a10f2b;
+	}	
+#text-content.reading verse.first-verse word.first-word span.first-letter.A
+	{
+	shape-outside: polygon(50% 0%, 0 100%, 100% 100%);
+	margin-right:5px;
+	}
+#text-content.reading verse.first-verse word.first-word span.first-letter.R
+	{
+	shape-outside: polygon(50% 0%, 0 100%, 100% 100%);
+	margin-right:10px;
+	}
+#text-content.reading h4.ps119-subtitle
+	{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:10px;
+	padding-right:20px;
+	}
+
+
+
+
+
+#text-content.retro #verses
+	{
+	background-color:#fffcf4!important;
+	}
+#text-content.retro verse.verse
+	{
+	display:block;
+	font-family: 'IM Fell DW Pica', serif;
+	color:#4a4c39;
+	font-size:24px;
+	}
+#text-content.retro verse.verse xref
+	{
+	font-family: 'IM Fell DW Pica', serif;
+	font-size:13px;
+	}
+#text-content.retro .chapter-number
+	{
+	display:none;
+	}
+#text-content.retro verse.first-verse word.first-word span.first-letter
+	{
+	font-size:102px;
+	float:left;
+	padding:15px 0px 10px 0px;
+	height:84px;
+	margin-right:0px;
+	line-height:70px;
+	font-family:eileenregular;
+	}
+#text-content.retro .para
+	{
+	font-weight:bold;
+	font-size:16px;
+	vertical-align: text-top;
+	}
+#text-content.retro .verse-number
+	{
+	margin-right:7px;
+	}
+#text-content.retro h4.ps119-subtitle
+	{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:10px;
+	padding-right:20px;
+	}
+#text-content.retro #reference-label
+	{
+	font-family: 'IM Fell DW Pica', serif;
+	}
+
 
 
 /*\

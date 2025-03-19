@@ -1188,7 +1188,7 @@ window.utils = utils;
       // ----------------------------------------------------------------
       // invoke by adding data-toggle="popover" to a tags (this makes it validate)
       if ($document.popover) {
-        context.find('[data-toggle="popover"]').popover();
+        context.find('[data-toggle="popover"]').popover({delay: 250 });
       }
 
 
