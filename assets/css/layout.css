@@ -460,6 +460,19 @@ xref
 
 
 
+
+#text-content.retro .cheader
+	{
+	font-family: 'IM Fell DW Pica', serif;
+	}
+
+#text-content.retro span.outline
+	{
+	font-family: 'IM Fell DW Pica', serif;
+	}
+
+
+
 /*\
 * Restore Bootstrap 3 "hidden" utility classes.
 \*/
