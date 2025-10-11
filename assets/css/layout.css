@@ -141,6 +141,7 @@ xref
 	}
 
 
+
 #reference-label-bottom
 	{
 	border-top:1px solid #bbb;
@@ -238,7 +239,10 @@ xref
 	margin-top:10px;
 	padding-right:20px;
 	}
-
+#text-content.traditional .houtline
+	{
+	display:none;
+	}
 
 
 
@@ -300,6 +304,14 @@ xref
 #text-content.paragraph verse.first-verse word.first-word.italics span.first-letter
 	{
 	font-style:italic;
+	}
+#text-content.paragraph span.outline
+	{
+	display:none;
+	}
+#text-content.paragraph .houtline
+	{
+	display:none;
 	}
 
 
@@ -400,6 +412,14 @@ xref
 	margin-top:10px;
 	padding-right:20px;
 	}
+#text-content.reading span.outline
+	{
+	display:none;
+	}
+#text-content.reading .houtline
+	{
+	display:none;
+	}
 
 
 
@@ -457,19 +477,36 @@ xref
 	{
 	font-family: 'IM Fell DW Pica', serif;
 	}
-
-
-
-
-#text-content.retro .cheader
-	{
-	font-family: 'IM Fell DW Pica', serif;
-	}
-
 #text-content.retro span.outline
 	{
-	font-family: 'IM Fell DW Pica', serif;
+	display:none;
 	}
+#text-content.retro .houtline
+	{
+	display:block;
+	text-align:justify;
+	text-align-last:center;
+	font-family: 'IM Fell DW Pica', serif;
+	font-size:16px;
+	font-style:italic;
+	line-height:1.2;
+	color:#a10f2b;
+	margin-top:-10px;
+	margin-bottom:5px;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#text-content.retro .houtline span.verse_num
+	{
+	font-style:normal;
+	margin-right:5px;
+	}
+#text-content.retro .cheader
+	{
+	display:none;
+	}
+
 
 
 
